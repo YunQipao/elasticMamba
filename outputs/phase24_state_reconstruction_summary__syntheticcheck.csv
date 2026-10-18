@@ -1,0 +1,10 @@
+run_id,strategy,rank,hybrid_alpha,budget_ratio,quantization_bits,mean_effective_budget_ratio,mean_loss_increase,std_loss_increase,mean_continuation_ppl,mean_top1_agreement,std_top1_agreement,mean_reconstruction_mse,mean_quantization_mse,mean_memory_reduction_ratio,mean_reconstruction_overhead_ms,num_prompts,num_seeds,rank_by_loss,rank_by_pareto,warning
+syntheticcheck,hybrid_zero_drop,,1.0,0.7,,0.69,0.2,0.0,2.2,0.9,0.0,0.3,,0.31,0.4,1,1,5,1,
+syntheticcheck,random_zero_drop,,,0.7,,0.7,0.28,0.0,2.2800000000000002,0.88,0.0,0.34,,0.3,0.35,1,1,8,1,
+syntheticcheck,uniform_zero_drop,,,0.7,,0.71,0.26,0.0,2.26,0.885,0.0,0.33,,0.29,0.36,1,1,7,1,
+syntheticcheck,state_norm_zero_drop,,,0.7,,0.705,0.24,0.0,2.24,0.89,0.0,0.31,,0.305,0.37,1,1,6,1,
+syntheticcheck,state_quant_int8,,1.0,0.7,8,0.7,0.16,0.0,2.16,0.92,0.0,0.22,0.002,0.3,0.45,1,1,3,1,
+syntheticcheck,state_quant_int4,,1.0,0.7,4,0.69,0.18,0.0,2.18,0.91,0.0,0.24,0.006,0.32,0.46,1,1,4,1,
+syntheticcheck,lowrank_reconstruct,4,1.0,0.7,,0.7,0.1,0.0,2.1,0.95,0.0,0.15,,0.3,0.55,1,1,2,1,
+syntheticcheck,lowrank_reconstruct,8,1.0,0.7,,0.71,0.08,0.0,2.08,0.955,0.0,0.12,,0.29,0.75,1,1,1,1,
+syntheticcheck,full_state,,,1.0,,1.0,0.0,0.0,2.0,1.0,0.0,0.0,,0.0,0.0,1,1,1,1,

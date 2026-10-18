@@ -1,0 +1,97 @@
+prompt_idx,prompt,seq_len,layers,dtype,logits_dtype,logits_abs_max,max_abs_diff,mean_abs_diff,relative_max_error,top1_match_rate,threshold_max,threshold_mean,pass
+0,Hello world.,32,1,fp32,torch.float32,7.66343994e+01,1.60217285e-04,4.88079568e-05,2.09067059e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+0,Hello world.,32,all,fp32,torch.float32,7.66343994e+01,1.75476074e-04,5.94572812e-05,2.28978208e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+0,Hello world.,128,1,fp32,torch.float32,7.66343994e+01,1.22070312e-04,2.79591713e-05,1.59289188e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+0,Hello world.,128,all,fp32,torch.float32,7.66343994e+01,2.13623047e-04,7.80118498e-05,2.78756079e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+0,Hello world.,512,1,fp32,torch.float32,7.66343994e+01,1.48773193e-04,3.70912785e-05,1.94133698e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+0,Hello world.,512,all,fp32,torch.float32,7.66343994e+01,1.75476074e-04,7.38815579e-05,2.28978208e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+0,Hello world.,1024,1,fp32,torch.float32,7.66343994e+01,9.15527344e-05,3.81718819e-05,1.19466891e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+0,Hello world.,1024,all,fp32,torch.float32,7.66343994e+01,1.41143799e-04,4.75918496e-05,1.84178124e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+1,The quick brown fox jumps over the lazy dog.,32,1,fp32,torch.float32,8.11669769e+01,9.53674316e-05,1.33386538e-05,1.17495360e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+1,The quick brown fox jumps over the lazy dog.,32,all,fp32,torch.float32,8.11669769e+01,1.02996826e-04,1.58189814e-05,1.26894989e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+1,The quick brown fox jumps over the lazy dog.,128,1,fp32,torch.float32,8.11669769e+01,9.34600830e-05,1.72337277e-05,1.15145453e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+1,The quick brown fox jumps over the lazy dog.,128,all,fp32,torch.float32,8.11669769e+01,1.44958496e-04,1.40568673e-05,1.78592947e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+1,The quick brown fox jumps over the lazy dog.,512,1,fp32,torch.float32,8.11669769e+01,1.35421753e-04,2.05194337e-05,1.66843411e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+1,The quick brown fox jumps over the lazy dog.,512,all,fp32,torch.float32,8.11669769e+01,1.22070312e-04,2.35184852e-05,1.50394061e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+1,The quick brown fox jumps over the lazy dog.,1024,1,fp32,torch.float32,8.11669769e+01,1.56402588e-04,2.61616096e-05,1.92692390e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+1,The quick brown fox jumps over the lazy dog.,1024,all,fp32,torch.float32,8.11669769e+01,1.90734863e-04,2.55080031e-05,2.34990720e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+2,Mamba models are efficient sequence models for long-context reasoning.,32,1,fp32,torch.float32,9.71434937e+01,2.21252441e-04,2.85380029e-05,2.27758374e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+2,Mamba models are efficient sequence models for long-context reasoning.,32,all,fp32,torch.float32,9.71434937e+01,1.41143799e-04,2.31171980e-05,1.45294135e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+2,Mamba models are efficient sequence models for long-context reasoning.,128,1,fp32,torch.float32,9.71434937e+01,1.67846680e-04,2.32261918e-05,1.72782215e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+2,Mamba models are efficient sequence models for long-context reasoning.,128,all,fp32,torch.float32,9.71434937e+01,2.09808350e-04,3.26900990e-05,2.15977768e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+2,Mamba models are efficient sequence models for long-context reasoning.,512,1,fp32,torch.float32,9.71434937e+01,1.37329102e-04,2.42910883e-05,1.41367267e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+2,Mamba models are efficient sequence models for long-context reasoning.,512,all,fp32,torch.float32,9.71434937e+01,1.67846680e-04,2.48886081e-05,1.72782215e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+2,Mamba models are efficient sequence models for long-context reasoning.,1024,1,fp32,torch.float32,9.71434937e+01,2.05993652e-04,2.03451727e-05,2.12050900e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+2,Mamba models are efficient sequence models for long-context reasoning.,1024,all,fp32,torch.float32,9.71434937e+01,2.02178955e-04,3.17274025e-05,2.08124031e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+3,"In a quiet village, the river bends around old stones and willow trees, carrying reflections of the sky while children race along the bank and laughter fades into the evening air.",32,1,fp32,torch.float32,8.67121887e+01,2.13623047e-04,1.93860124e-05,2.46358730e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+3,"In a quiet village, the river bends around old stones and willow trees, carrying reflections of the sky while children race along the bank and laughter fades into the evening air.",32,all,fp32,torch.float32,8.67121887e+01,1.67846680e-04,1.86516409e-05,1.93567574e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+3,"In a quiet village, the river bends around old stones and willow trees, carrying reflections of the sky while children race along the bank and laughter fades into the evening air.",128,1,fp32,torch.float32,8.67122269e+01,2.15530396e-04,1.88583563e-05,2.48558252e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+3,"In a quiet village, the river bends around old stones and willow trees, carrying reflections of the sky while children race along the bank and laughter fades into the evening air.",128,all,fp32,torch.float32,8.67122269e+01,2.51531601e-04,2.05442393e-05,2.90076279e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+3,"In a quiet village, the river bends around old stones and willow trees, carrying reflections of the sky while children race along the bank and laughter fades into the evening air.",512,1,fp32,torch.float32,8.67122269e+01,2.11715698e-04,1.96847486e-05,2.44158991e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+3,"In a quiet village, the river bends around old stones and willow trees, carrying reflections of the sky while children race along the bank and laughter fades into the evening air.",512,all,fp32,torch.float32,8.67122269e+01,2.47955322e-04,2.01438288e-05,2.85951972e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+3,"In a quiet village, the river bends around old stones and willow trees, carrying reflections of the sky while children race along the bank and laughter fades into the evening air.",1024,1,fp32,torch.float32,8.67122269e+01,2.40564346e-04,1.88764425e-05,2.77428403e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+3,"In a quiet village, the river bends around old stones and willow trees, carrying reflections of the sky while children race along the bank and laughter fades into the evening air.",1024,all,fp32,torch.float32,8.67122269e+01,3.68118286e-04,2.76649280e-05,4.24528696e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+4,"```python
+def add(a, b):
+    return a + b
+```
+This snippet defines a tiny helper function.",32,1,fp32,torch.float32,1.02375046e+02,1.56402588e-04,2.35274238e-05,1.52774132e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+4,"```python
+def add(a, b):
+    return a + b
+```
+This snippet defines a tiny helper function.",32,all,fp32,torch.float32,1.02375046e+02,1.75476074e-04,2.87565199e-05,1.71405124e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+4,"```python
+def add(a, b):
+    return a + b
+```
+This snippet defines a tiny helper function.",128,1,fp32,torch.float32,1.02375046e+02,1.67846680e-04,1.93882825e-05,1.63952727e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+4,"```python
+def add(a, b):
+    return a + b
+```
+This snippet defines a tiny helper function.",128,all,fp32,torch.float32,1.02375046e+02,1.33514404e-04,2.21616738e-05,1.30416942e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+4,"```python
+def add(a, b):
+    return a + b
+```
+This snippet defines a tiny helper function.",512,1,fp32,torch.float32,1.02375046e+02,1.83105469e-04,2.03282871e-05,1.78857521e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+4,"```python
+def add(a, b):
+    return a + b
+```
+This snippet defines a tiny helper function.",512,all,fp32,torch.float32,1.02375046e+02,2.67028809e-04,3.33706557e-05,2.60833884e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+4,"```python
+def add(a, b):
+    return a + b
+```
+This snippet defines a tiny helper function.",1024,1,fp32,torch.float32,1.02375046e+02,1.44958496e-04,1.85839690e-05,1.41595537e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+4,"```python
+def add(a, b):
+    return a + b
+```
+This snippet defines a tiny helper function.",1024,all,fp32,torch.float32,1.02375046e+02,1.52587891e-04,2.33750616e-05,1.49047934e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+5,"Let f(x) = x^2 + 3x + 1. By completing the square, we can analyze its minima and curvature.",32,1,fp32,torch.float32,1.06668571e+02,5.68389893e-04,6.60624064e-05,5.32856009e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+5,"Let f(x) = x^2 + 3x + 1. By completing the square, we can analyze its minima and curvature.",32,all,fp32,torch.float32,1.06668571e+02,5.11169434e-04,6.49292051e-05,4.79212786e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+5,"Let f(x) = x^2 + 3x + 1. By completing the square, we can analyze its minima and curvature.",128,1,fp32,torch.float32,1.06668571e+02,4.69207764e-04,5.59302935e-05,4.39874423e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+5,"Let f(x) = x^2 + 3x + 1. By completing the square, we can analyze its minima and curvature.",128,all,fp32,torch.float32,1.06668571e+02,5.83648682e-04,6.33724630e-05,5.47160868e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+5,"Let f(x) = x^2 + 3x + 1. By completing the square, we can analyze its minima and curvature.",512,1,fp32,torch.float32,1.06668571e+02,5.87463379e-04,6.21228828e-05,5.50737083e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+5,"Let f(x) = x^2 + 3x + 1. By completing the square, we can analyze its minima and curvature.",512,all,fp32,torch.float32,1.06668571e+02,4.11987305e-04,5.55982442e-05,3.86231201e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+5,"Let f(x) = x^2 + 3x + 1. By completing the square, we can analyze its minima and curvature.",1024,1,fp32,torch.float32,1.06668571e+02,7.09533691e-04,6.88230284e-05,6.65175957e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+5,"Let f(x) = x^2 + 3x + 1. By completing the square, we can analyze its minima and curvature.",1024,all,fp32,torch.float32,1.06668571e+02,5.68389893e-04,6.86717249e-05,5.32856009e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+6,"To prepare the mixture, combine flour, water, yeast, and salt, then let the dough rest overnight before baking in a hot oven until the crust becomes golden and crisp.",32,1,fp32,torch.float32,9.64763947e+01,2.44140625e-04,2.36639953e-05,2.53057368e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+6,"To prepare the mixture, combine flour, water, yeast, and salt, then let the dough rest overnight before baking in a hot oven until the crust becomes golden and crisp.",32,all,fp32,torch.float32,9.64763947e+01,1.90734863e-04,2.46829641e-05,1.97701069e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+6,"To prepare the mixture, combine flour, water, yeast, and salt, then let the dough rest overnight before baking in a hot oven until the crust becomes golden and crisp.",128,1,fp32,torch.float32,9.64764175e+01,2.28881836e-04,1.78927185e-05,2.37241226e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+6,"To prepare the mixture, combine flour, water, yeast, and salt, then let the dough rest overnight before baking in a hot oven until the crust becomes golden and crisp.",128,all,fp32,torch.float32,9.64764175e+01,2.40325928e-04,2.57781921e-05,2.49103287e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+6,"To prepare the mixture, combine flour, water, yeast, and salt, then let the dough rest overnight before baking in a hot oven until the crust becomes golden and crisp.",512,1,fp32,torch.float32,9.64764175e+01,1.75476074e-04,1.75874266e-05,1.81884940e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+6,"To prepare the mixture, combine flour, water, yeast, and salt, then let the dough rest overnight before baking in a hot oven until the crust becomes golden and crisp.",512,all,fp32,torch.float32,9.64764175e+01,1.98364258e-04,2.18345795e-05,2.05609063e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+6,"To prepare the mixture, combine flour, water, yeast, and salt, then let the dough rest overnight before baking in a hot oven until the crust becomes golden and crisp.",1024,1,fp32,torch.float32,9.64764175e+01,2.21252441e-04,2.02550673e-05,2.29333185e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+6,"To prepare the mixture, combine flour, water, yeast, and salt, then let the dough rest overnight before baking in a hot oven until the crust becomes golden and crisp.",1024,all,fp32,torch.float32,9.64764175e+01,2.68936157e-04,3.13898272e-05,2.78758441e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+7,"A proof by contradiction assumes the negation of the claim and derives an inconsistency, often revealing the structure hidden beneath the problem statement.",32,1,fp32,torch.float32,9.70770340e+01,1.52587891e-04,1.56793103e-05,1.57182275e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+7,"A proof by contradiction assumes the negation of the claim and derives an inconsistency, often revealing the structure hidden beneath the problem statement.",32,all,fp32,torch.float32,9.70770340e+01,2.05993652e-04,2.70628971e-05,2.12196071e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+7,"A proof by contradiction assumes the negation of the claim and derives an inconsistency, often revealing the structure hidden beneath the problem statement.",128,1,fp32,torch.float32,9.70770340e+01,1.22070312e-04,1.47992705e-05,1.25745820e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+7,"A proof by contradiction assumes the negation of the claim and derives an inconsistency, often revealing the structure hidden beneath the problem statement.",128,all,fp32,torch.float32,9.70770340e+01,1.67846680e-04,1.72376167e-05,1.72900503e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+7,"A proof by contradiction assumes the negation of the claim and derives an inconsistency, often revealing the structure hidden beneath the problem statement.",512,1,fp32,torch.float32,9.70770340e+01,1.67846680e-04,2.31723025e-05,1.72900503e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+7,"A proof by contradiction assumes the negation of the claim and derives an inconsistency, often revealing the structure hidden beneath the problem statement.",512,all,fp32,torch.float32,9.70770340e+01,1.83105469e-04,1.83761840e-05,1.88618730e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+7,"A proof by contradiction assumes the negation of the claim and derives an inconsistency, often revealing the structure hidden beneath the problem statement.",1024,1,fp32,torch.float32,9.70770340e+01,1.06811523e-04,1.40772045e-05,1.10027593e-06,1.00000000,8.00000000e-04,1.00000000e-04,True
+7,"A proof by contradiction assumes the negation of the claim and derives an inconsistency, often revealing the structure hidden beneath the problem statement.",1024,all,fp32,torch.float32,9.70770340e+01,1.75476074e-04,2.06950172e-05,1.80759616e-06,1.00000000,8.00000000e-04,1.00000000e-04,True

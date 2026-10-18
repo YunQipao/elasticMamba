@@ -1,0 +1,2 @@
+perm_type,mode,prompt_id,layers,layer_ids,heads,target_layers,target_heads,prefix_len,continuation_len,disable_mem_eff_path,max_abs_diff,mean_abs_diff,relative_max_error,top1_match_rate,continuation_loss,continuation_ppl,status,error_msg
+postflight,error,-1,1,,all,[1],"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",128,16,True,,,,,,,error,prompt loop did not execute

@@ -1,0 +1,5 @@
+ratio,order,next_token_loss,perplexity,average_latency_ms,grad_weight_loss_reduction_vs_random
+0.85,grad_weight,4.07173979,58.65892798,41.348528,
+0.90,grad_weight,3.81284550,45.27909730,41.854033,
+0.95,grad_weight,3.65694028,38.74261966,41.389401,
+1.00,grad_weight,3.54127592,34.51092439,46.162779,

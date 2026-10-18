@@ -1,0 +1,5 @@
+input_type,layer_idx,head_id,use_mem_eff_path,tag,max_abs_diff,mean_abs_diff,relative_max_error,output_abs_max,status
+random_hidden,0,0,False,good,3.81469727e-05,1.08588449e-06,2.30623009e-07,1.65408356e+02,strict_pass
+random_hidden,0,0,False,bad,5.35576591e+01,2.59874487e+00,3.23790530e-01,1.65408356e+02,expected_fail
+full_model_captured_input,0,0,False,good,7.62939453e-06,1.04098021e-07,1.54458296e-07,4.93945274e+01,strict_pass
+full_model_captured_input,0,0,False,bad,4.42608976e+00,4.08412248e-01,8.96068855e-02,4.93945274e+01,expected_fail

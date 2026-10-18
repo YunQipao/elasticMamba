@@ -1,0 +1,4 @@
+scope,enabled_ablation_levels,top_k_share,entropy,gini,rank_stability,spearman_state_norm_vs_loss,kendall_state_norm_vs_loss,random_ablation_loss_increase,uniform_ablation_loss_increase,top_sensitive_loss_increase
+layer,head,0.31428826,4.53396940,0.43251370,0.94139341,0.23157704,0.15870241,0.00000000,0.00000000,0.00000000
+head,head,0.31428826,4.53396940,0.43251370,0.94139341,0.23157704,0.15870241,0.00296370,0.00296370,0.00296370
+channel_group,head,0.20969142,6.62504864,0.40700807,0.82597251,0.00000000,0.00000000,0.00000000,0.00000000,0.00000000

@@ -1,0 +1,2 @@
+tag,model_name,tokenizer_name,layers_arg,num_layers,negative_control,determinism_check,ablate,max_abs_diff,mean_abs_diff,relative_max_error,top1_match_rate,logits_abs_max,threshold_max,threshold_mean,threshold_relative,threshold_top1,status
+determinism,state-spaces/mamba2-130m,EleutherAI/gpt-neox-20b,1,0,False,True,,0.00000000e+00,0.00000000e+00,0.00000000e+00,1.00000000,1.66200928e+02,,,,,PASS

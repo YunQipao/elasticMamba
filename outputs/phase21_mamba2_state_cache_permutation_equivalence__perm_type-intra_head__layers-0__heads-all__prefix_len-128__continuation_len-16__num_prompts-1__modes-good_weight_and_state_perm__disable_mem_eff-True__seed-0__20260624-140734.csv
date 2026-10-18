@@ -1,0 +1,7 @@
+perm_type,mode,prompt_id,layers,heads,target_layers,target_heads,prefix_len,continuation_len,disable_mem_eff_path,max_abs_diff,mean_abs_diff,relative_max_error,top1_match_rate,continuation_loss,continuation_ppl,status,error_msg
+fatal,error,-1,0,all,[],[],128,16,True,,,,,,,error,"--layers must be in [1, 24], 'all', or a comma list, got 0 | Traceback (most recent call last):
+  File ""/media/sda1/iic_data/luotao/wheels-cu126/phase21_mamba2_state_cache_permutation_equivalence.py"", line 485, in main
+    target_layers = parse_layer_spec(args.layers, total_layers)
+  File ""/media/sda1/iic_data/luotao/wheels-cu126/phase21_mamba2_state_cache_permutation_equivalence.py"", line 85, in parse_layer_spec
+    raise ValueError(f""--layers must be in [1, {total_layers}], 'all', or a comma list, got {layers_arg}"")
+ValueError: --layers must be in [1, 24], 'all', or a comma list, got 0"

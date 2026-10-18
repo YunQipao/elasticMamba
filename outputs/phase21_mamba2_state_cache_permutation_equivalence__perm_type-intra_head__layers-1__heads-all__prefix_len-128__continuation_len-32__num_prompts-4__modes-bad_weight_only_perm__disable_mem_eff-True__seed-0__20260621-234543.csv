@@ -1,0 +1,2 @@
+perm_type,mode,prompt_id,layers,heads,target_layers,target_heads,prefix_len,continuation_len,disable_mem_eff_path,max_abs_diff,mean_abs_diff,relative_max_error,top1_match_rate,continuation_loss,continuation_ppl,status
+intra_head,bad_weight_only_perm,1,1,all,[0],"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",128,32,True,2.55226105e+02,7.31388016e+01,2.43470878e+00,0.03125000,23.60553932,17854819735.16217041,expected_fail

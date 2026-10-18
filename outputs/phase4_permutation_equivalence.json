@@ -1,0 +1,32 @@
+{
+  "model_name": "state-spaces/mamba-130m",
+  "tokenizer_name": "EleutherAI/gpt-neox-20b",
+  "prompt": "The quick brown fox jumps over the lazy dog. This sentence is used to verify Mamba permutation equivalence.",
+  "device": "cuda",
+  "dtype": "fp32",
+  "layers": "1",
+  "resolved_num_layers": 1,
+  "negative_control": true,
+  "threshold_max_arg": null,
+  "threshold_mean_arg": null,
+  "threshold_max": 0.0005,
+  "threshold_mean": 5e-05,
+  "good": {
+    "logits_dtype": "torch.float32",
+    "logits_abs_max": 95.05792999267578,
+    "max_abs_diff": 0.000102996826171875,
+    "mean_abs_diff": 1.4351190657180268e-05,
+    "relative_max_error": 1.083516400786445e-06,
+    "top1_match_rate": 1.0
+  },
+  "bad": {
+    "logits_dtype": "torch.float32",
+    "logits_abs_max": 95.05792999267578,
+    "max_abs_diff": 130.1474609375,
+    "mean_abs_diff": 42.02959442138672,
+    "relative_max_error": 1.3691383869554756,
+    "top1_match_rate": 0.0476190485060215
+  },
+  "negative_control_layer_idx": 0,
+  "negative_control_d_inner": 1536
+}
